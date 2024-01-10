@@ -1,0 +1,23 @@
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+
+.no-select {
+    user-select: none;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #4d4d4d; /* Color de la barra de desplazamiento */
+    border-radius: 6px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #1b1b1b; 
+    padding-top: 10px;
+    border-radius: 4px;
+    /* Color de fondo de la barra de desplazamiento */
+  }
